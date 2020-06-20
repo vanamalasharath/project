@@ -1,0 +1,181 @@
+html{
+  height: 100%;
+  background: radial-gradient(circle,#fff, #ccc);
+}
+
+#container{
+  height: 600px;
+  width: 750px;
+  background-color: #9DD2EA;
+  margin: 20PX auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px 0px #009de4;
+  position: relative
+  
+}
+#score{
+  background-color: #F1FF92;
+  //float: right;
+  padding: 10px;
+  position: absolute;
+  left:690px;
+}
+
+#correct{
+  position: absolute;
+  left: 170px;
+  background-color: lightgreen;
+  color: white;
+  padding: 11px;
+  display: none;
+  
+}
+
+#wrong{
+  position: absolute;
+  left: 170px;
+  background-color: red;
+  padding: 11px;
+  color: white;
+  display: none;
+}
+#fruitcontainer{
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 10px auto;
+  background-color: white;
+  box-shadow: 0px 4px black;
+  font-size: 80px;
+  text-align: center;
+  font-family: cursive;
+  color: black; 
+  position: relative;
+  overflow: hidden;
+  
+}
+
+#instruction{
+  height: 40px;
+  width: 300px;
+  background-color: pink;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0px 4px black;
+  
+}
+
+#choice{
+  width: 300px;
+  height: 50px;
+  margin: 5px auto;
+  
+}
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  float: left;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0px 4px black;
+  text-align: center;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+
+}
+
+#box4{
+  margin-right: 0;
+}
+
+.box:hover, #startreset:hover{
+  background-color: pink;
+}
+
+.box:active, #startreset:active{
+  box-shadow: 0px 0px black;
+  top: 4px;
+  
+}
+#startreset{
+  
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0px 4px black;
+  text-align: center;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+}
+
+#trailsleft{
+  width: 140px;
+  padding: 8px;
+  top: 279px;
+  left: 250px;
+  //position: absolute;
+  background-color: yellow;
+  border-radius: 4px;
+  visibility: hidden;
+  //display: none;
+}
+
+#gameover{
+  height: 150px;
+  width: 400px;
+  background-color: grey;
+  color: white;
+  font-size: 2.1em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 180px;
+  line-height: 10px;
+  z-index: 2;
+  left: 186px;
+  display: none;
+  
+}
+#trails{
+  width: 140px;
+  padding: 8px;
+  top: 12px;
+  left: 50px;
+  position: absolute;
+  background-color: yellow;
+    border-radius: 4px;
+  padding: 10px;
+    display: none;
+
+
+}
+
+.life{
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  padding: 0px;
+  margin-top: 1px;
+}
+
+.fruit{
+  display: none;
+  position: absolute;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>or lovely project</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="styling.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+        
+
+  </head>
+  <body data-spy="scroll" data-target="#mynavbar">
+  <!-- add video to te body element-->
+    <video autoplay loop muted id="bgvideo">
+      <source src="images/free%20nature%20video%20background%20006%201920%20x%201080%2025fps.mov" type="video/mp4">
+    </video>
+    
+    <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavbar">
+      
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">complete web devolepement course</a>
+        <button type="button" class="navbar-toggle" data-target="#navbarcollapse" data-toggle="collapse">
+          <span class="sr-only">Toggle navigation</span>
+
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbarcollapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#promise">promise</a></li>
+
+          
+        </ul>
+      </div>
+      </div>
+    </nav>
+    
+    <div class="jumbotron" id="home">
+      <div class="container">
+        <h1> complete web devolepment course</h1>
+        <h2> go fro zero skill to cash earning web devoleper</h2>
+        <p><a class="btn" href="#"> join us here</a></p>
+      </div>
+    </div>
+    
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/star.png" class="aboutimage">
+            <h2>high quality lectures</h2>
+            <p> all lectures have ben very well prepared for the best learning experienve of future devolepers</p>
+            
+          </div>
+          <div class="col-md-4">
+            <img src="images/tools.png" class="aboutimage">
+            <h2> +80H of rich content</h2>
+            <p>learn all the major web technologies such as html css javascript jquery twitter botstrap php mysql and more</p>
+            
+          </div><div class="col-md-4">
+            <img src="images/help.png" class="aboutimage">
+            <h2>get hlp anytime</h2>
+            <p>plan your questions in the foums of the course where myself and thousands of students are happy to help!</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="promise" class="container-fluid">
+      <div class="carousel slide" id="mycarousel" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          
+          <div class="item active">
+            <img src="images/study.webp">
+            <div class="carousel-caption">
+              
+              <h2> crystal clea and engaging 100% hands on lectures</h2>
+            </div>
+          
+          </div>
+          <div class="item">
+            <img src="images/study.webp">
+            <div class="carousel-caption">
+              
+              <h2> full currilculum includng all major web technologis</h2>
+            </div>
+          
+          </div>
+        </div>
+        
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+          <span class="glypicon glypicon-chevron-left"></span>
+          <span class="sr-only">previous</span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+          <span class="glypicon glypicon-chevron-left"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        
+      </div>
+      
+    </div>
+    
+    
+    <div class="footer">
+      <div class="container">
+        <p>&copy;Devolepred by sharath vanamala</p>
+      </div>
+    </div>
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $('.carousel').carousel({
+          interval:10000
+        });
+      });
+    </script>
+  </body>
+</html>

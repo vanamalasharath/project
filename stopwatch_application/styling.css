@@ -1,0 +1,71 @@
+body{
+  background: url(images/fall-1072821_1280.jpg) center center fixed;
+  background-size: cover;
+  color: #fff;
+  
+}
+
+#header{
+  color: white;
+  text-align: center;
+  font-size: 7vw;
+  
+}
+#lap{
+  text-align: right;
+  color: white;
+  font-size: 4vw;
+  
+}
+#time{
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  
+}
+
+#controls{
+  margin-bottom: 100px;
+}
+
+.button{
+  color: white;
+  background-color: #d7a04e;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+.button:active{
+    background-color: #fff;
+  color: #d7a04e;
+
+  
+}
+
+#laps{
+  max-height: 200px;
+  overflow-y: scroll;
+  
+}
+
+.lapc{
+  height: 50px;
+  border-bottom: 1px solid white;
+  margin: 15px;
+  
+}
+
+.laptitle{
+  font-size: 1.5em;
+  float: left;
+}
+
+.laptimetitle{
+  font-size: 2em;
+  float: right
+}
